@@ -1,0 +1,277 @@
+* {
+	margin: 0;
+	font-family: Arial;
+	border: border-box;
+}
+
+.navbar{
+	height: 60px;
+	background-color: blue;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	opacity: 0.9;
+}
+.nav-logo {
+	height: 50px;
+	width: 125px;
+}
+.amz-logo {
+	background-image: url("AK\ Shopping-modified.png");
+	background-size: cover;
+	/* padding-left: px; */
+	height: 48px;
+	width: 48px;
+	position: relative;
+	/* top: 0px; */
+	left: 5px;
+}
+.border {
+	/* border: 1px solid transparent; */
+}
+.border:hover {
+	/* border: 1px solid white; */
+}
+
+/** box2 **/
+
+.add-first {
+	color: #CCCCCC;
+	font-size: 0.85rem;
+	margin-left: 15px;
+}
+
+.add-second {
+	font-size: 1rem;
+	margin-left: 3px;
+}
+.add-icon {
+	display: flex;
+}
+
+/** box3 **/
+.nav-search {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #737373;
+	width: 620px;
+	height: 40px;
+	border-radius: 15px;
+}
+.search-select {
+	background-color: #f3f3f3;
+	width: 100px;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border: none;
+}
+.search-input {
+	width: 100%;
+	font-size: 1rem;
+	border: none;
+}
+.search-icon {
+	width: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	background-color: #0e25cd;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	color: #bbc0e2;
+	border-radius: 20%;
+}
+
+.nav-search:hover {
+	color: white;
+}
+
+/** box4 **/
+span {
+	font-size: 0.7rem;
+}
+.nav-second {
+	font-size: 0.85rem;
+	font-weight: 700;
+}
+
+/** box6 **/
+.nav-cart img {
+	height: 40px;
+	width: 40px;
+}
+.nav-cart {
+	font-size: 0.85rem;
+	font-weight: 700;
+}
+
+/** panel **/
+.panel {
+	height: 40px;
+	background-color: #00073d;
+	display: flex;
+	color: #dcf80d;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.panel-ops p {
+	display: inline;
+	margin-left: 15px;
+}
+.panel-ops {
+	width: 70%;
+	font-size: 0.85rem;
+}
+.panel-deals {
+	font-size: 0.9rem;
+	font-weight: 700;
+}
+
+/**hero section **/
+.hero {
+	background-image: url("hero.jpg");
+	height: 300px;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.hero-msg {
+	background-color: white;
+	color: black;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.85rem;
+	width: 80%;
+	margin-bottom: 25px;
+}
+
+
+/** shop-section **/
+.shop-section {
+	display: flex;
+	justify-content: space-evenly;
+	background: linear-gradient(to top, #00073d, #e1f7fe);
+	flex-wrap: wrap;
+}
+.box {
+	/* border: 2px solid black; */
+	height: 400px;
+	width: 23%;
+	background-color: white;
+	padding: 20px 0px 15px;
+	margin-top: 15px;
+}
+.box-img {
+	height: 300px;
+	background-size: cover;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}  
+.box-content {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.box-content p {
+	color: #1b7bf0;
+}
+
+/** footer **/
+.foot-panel1 {
+	background-color:#00073d;
+	color: white;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.foot-panel2 {
+	background: linear-gradient(to bottom, #828212, red);
+	color: white;
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+ul {
+	margin-top: 20px;
+}
+ul a {
+	display: block;
+	font-size: 0.85rem;
+	margin-top: 10px;
+	color: #dddddd;
+}
+
+.foot-panel3 {
+	background: linear-gradient(to bottom, red, black);
+	color: white;
+	border-top: 0.5px solid white;
+	height: 180px;
+	display: flex;
+	justify-content: center;
+}
+
+.logo {
+	background-image: url("AK\ Shopping-modified.png");
+	background-size: cover;
+	height: 150px;
+	width: 175px;
+	position: absolute;
+	padding-top: 25px;
+}
+
+.foot-panel4 {
+	background-color: #000000;
+	color: white;
+	height: 80px;
+	/* display: flex; */
+	/* justify-content: center; */
+	text-align: center;
+	font-size: 0.7rem;
+}
+
+.pages {
+	padding-top: 25px;
+}
+
+.copyright {
+	padding-top: 5px;
+}
+
+.search-icon img {
+	height: 40px;
+	width: 40px;
+	background-color: black;
+}
+
+/* CSS media query for devices with a max width of 768px */
+@media (max-width: 768px) {
+	.navbar {
+		flex-direction: column;
+	}
+
+	.nav-search {
+		width: 100%;
+	}
+
+	.shop-section {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.box {
+		width: 90%;
+		margin-top: 10px;
+	}
+
+	.foot-panel2 {
+		flex-direction: column;
+		align-items: center;
+	}
+}
